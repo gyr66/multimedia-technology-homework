@@ -17,13 +17,13 @@
     </el-row>
     <el-row type="flex" justify="space-around" v-if="hasResult">
       <el-col :span="6">
-        <el-image v-lazy="image_R"/>
+        <el-image :src="image_R"/>
       </el-col>
       <el-col :span="6">
-        <el-image v-lazy="image_G"/>
+        <el-image :src="image_G"/>
       </el-col>
       <el-col :span="6">
-        <el-image v-lazy="image_B"/>
+        <el-image :src="image_B"/>
       </el-col>
     </el-row>
   </div>
